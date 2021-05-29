@@ -1,0 +1,282 @@
+/************** TYPOGRAPHY ****************/
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 150px;
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 200px;
+}
+
+h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 75px;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 0;
+}
+
+p {
+    font-family: 'Bitter', serif;
+    font-size: 15px;
+    text-align: justify;
+    margin-left: 30%;
+    margin-right: 30%;
+    line-height: 1.6em;
+    padding: 10px;
+}
+
+p a {
+    color: black;
+}
+
+p a:hover {
+    color: #7AC9CF;
+}
+
+.homepage-intro {
+    text-align: center;
+    font-size: 18px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 150px;
+}
+
+.strong {
+    font-weight: 500;
+}
+
+.hi {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+}
+
+/*************** NAV BAR ******************/
+
+nav {
+    background-color: black;
+    padding: 17px;
+    position: fixed;
+    width: 100vw;
+    z-index: 99;
+}
+
+nav a {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+}
+
+#portfolio {
+    font-weight: 600;
+}
+
+#MK {
+    margin: 0 480px;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+/*************** HOMEPAGE *****************/
+
+/* CARDS */
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15%;
+    margin-right: 15%;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.card {
+    width: 50%;
+}
+
+.card > div {
+    padding: 10px;
+}
+
+.image-div {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 450px;
+    filter: grayscale(100%)
+}
+
+.image-div:hover {
+    filter: none;
+}
+
+
+/*************** IMAGES *****************/
+
+#me {
+    padding-top: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+#pplofyear {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+}
+
+#nation {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+}
+
+#infographic {
+    display: block;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+}
+
+.nbn {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+}
+
+.photo {
+    width: 25%;
+}
+
+.nbn-temp {
+    width: 25%;
+}
+
+.spoon_images {
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+}
+
+/*************** BUTTONS *****************/
+
+button {
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*************** GRAPHICS *****************/
+
+.graphics-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.graphics-card > div {
+    padding: 10px;
+}
+
+.graphics-div {
+    width: auto;
+    height: 220px;
+}
+
+.skylines {
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+}
+
+/*************** BRANDING *****************/
+
+.branding_images {
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+}
+
+.uncut-row {
+    display: flex;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.uncut-column {
+    flex: 25%;
+    padding: 5px;
+}
+
+.uncut-column img {
+    height: 200px;
+    padding: 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
