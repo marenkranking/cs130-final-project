@@ -1,0 +1,490 @@
+/************** TYPOGRAPHY ****************/
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 150px;
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 300px;
+}
+
+h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 75px;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 0;
+}
+
+p {
+    font-family: 'Bitter', serif;
+    font-size: 15px;
+    text-align: justify;
+    margin-left: 30%;
+    margin-right: 30%;
+    line-height: 1.6em;
+    padding: 10px;
+}
+
+p a {
+    color: black;
+}
+
+p a:hover {
+    color: #7AC9CF;
+}
+
+.homepage-intro {
+    text-align: center;
+    font-size: 18px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 300px;
+}
+
+.strong {
+    font-weight: 500;
+}
+
+.hi {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+}
+
+/*************** NAV BAR ******************/
+
+nav {
+    background-color: black;
+    padding: 17px;
+    position: fixed;
+    width: 100vw;
+    z-index: 99;
+    transition-duration: 1s;
+}
+
+nav a {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    transition-duration: 1s;
+}
+
+.page {
+    font-weight: 600;
+}
+
+#MK {
+    margin: 0 480px;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+/************** NAV SCROLL *****************/
+
+.white-nav {
+    background-color: white;
+}
+
+.white-nav a {
+    color: black;
+}
+
+/*************** HOMEPAGE *****************/
+
+/* CARDS */
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15%;
+    margin-right: 15%;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.card {
+    width: 50%;
+}
+
+.card > div {
+    padding: 10px;
+}
+
+.image-div {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 450px;
+    filter: grayscale(100%);
+}
+
+.image-div:hover {
+    filter: none;
+}
+
+
+/* SCROLL */
+
+.scroll-element {
+    opacity: 0;
+    transition: opacity 500ms;
+}
+
+.scroll-element.scrolled {
+    opacity: 1;
+}
+
+.scrolled.fade-in {
+    animation: fade-in 1s ease-in-out both;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/*************** IMAGES *****************/
+
+#me {
+    padding-top: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+#pplofyear {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+}
+
+#nation {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+}
+
+#infographic {
+    display: block;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+}
+
+.nbn {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+}
+
+.photo {
+    width: 25%;
+}
+
+.nbn-temp {
+    width: 25%;
+}
+
+.spoon_images {
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+}
+
+/*************** BUTTONS *****************/
+
+button {
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*************** GRAPHICS *****************/
+
+.graphics-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.graphics-card > div {
+    padding: 10px;
+}
+
+.graphics-div {
+    width: auto;
+    height: 220px;
+}
+
+.skylines {
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+}
+
+/*************** BRANDING *****************/
+
+.branding_images {
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+}
+
+.uncut-row {
+    display: flex;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.uncut-column {
+    flex: 25%;
+    padding: 5px;
+}
+
+.uncut-column img {
+    height: 200px;
+    padding: 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/************* SPORTS PHOTO GALLERY ***************/
+
+#sports {
+    margin: 20px 10%;
+    line-height: 5px;
+    -webkit-column-count: 4;
+    -webkit-column-gap:   5px;
+    -moz-column-count:    4;
+    -moz-column-gap:      5px;
+    column-count:         4;
+    column-gap:           5px;  
+}
+  
+  #sports img {
+    width: 100% !important;
+    height: auto !important;
+}
+
+/************* EVENTS PHOTO GALLERY ***************/
+
+.photo-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+}
+
+.photo-card {
+    width: 33%;
+}
+
+.photo-card > div {
+    padding: 10px;
+}
+
+.photo-image-div {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+}
+
+/**************** NBN PHOTO GALLERIES ***************/
+
+#nbn-winter {
+    margin: 20px 20%;
+    line-height: 5px;
+    -webkit-column-count: 1;
+    -webkit-column-gap:   5px;
+    -moz-column-count:    1;
+    -moz-column-gap:      5px;
+    column-count:         1;
+    column-gap:           5px;  
+}
+  
+#nbn-winter img {
+    width: 100% !important;
+    height: auto !important;
+}
+
+#nbn-fall {
+    margin: 50px 20%;
+    line-height: 5px;
+    -webkit-column-count: 1;
+    -webkit-column-gap:   5px;
+    -moz-column-count:    1;
+    -moz-column-gap:      5px;
+    column-count:         1;
+    column-gap:           5px;  
+}
+  
+#nbn-fall img {
+    width: 100% !important;
+    height: auto !important;
+}
+
+/*********** MEDIA QUERIES ***************/
+
+@media (max-width: 1400px) {
+    #MK {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    #sports {
+        -moz-column-count:    3;
+        -webkit-column-count: 3;
+        column-count:         3;
+    }
+    .photo-card {
+        width: 50%;
+    }
+}
+
+@media (max-width: 900px) {
+    #MK {
+        display: none;
+    }
+    h1 {
+        font-size: 90px;
+    }
+    .card {
+        width: 100%;
+    }
+    p {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .homepage-intro {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #me {
+        width: 50%;
+    }
+    h2 {
+        font-size: 50px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    h3 {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    h4 {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .skylines {
+        width: 70%;
+    }
+    .uncut-column {
+        flex: 100%;
+    }
+    .branding_images {
+        width: 80%;
+    }
+    .spoon_images {
+        width: 70%;
+    }
+    .nbn {
+        width: 80%;
+    }
+    #pplofyear {
+        width: 90%;
+    }
+    #nation {
+        width: 90%;
+    }
+    #infographic {
+        width: 70%;
+    }
+    #sports {
+        -moz-column-count:    2;
+        -webkit-column-count: 2;
+        column-count:         2;
+    }
+    .photo-card {
+        width: 100%;
+    }
+    #nbn-winter {
+        margin: 20px 10%;
+    }
+    #nbn-fall {
+        margin: 20px 10%;
+    }
+}
